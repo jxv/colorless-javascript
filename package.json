@@ -1,0 +1,34 @@
+{
+  "name": "colorless",
+  "version": "0.0.0",
+  "description": "Colorless library for the frontend",
+  "main": "dist/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-modern-browsers": "^9.0.2",
+    "webpack": "^3.6.0"
+  },
+  "scripts": {
+    "test": "mocha --watch --reporter spec",
+    "build": "mkdir -p dist && babel index.js -d dist --presets es2016"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxv/colorless-javascript.git"
+  },
+  "keywords": [
+    "colorless",
+    "idl"
+  ],
+  "author": "jxv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jxv/colorless-javascript/issues"
+  },
+  "homepage": "https://github.com/jxv/colorless-javascript#readme"
+}
